@@ -15,7 +15,7 @@ class ReferenceCell(object):
         #: The vertices making up each topological entity of the reference cell.
         self.topology = topology
 
-        #: The list of coordinate veritices of the reference cell.
+        #: The list of coordinate vertices of the reference cell.
         self.vertices = np.array(vertices, dtype=np.double)
 
         self.name = name
